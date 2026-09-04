@@ -54,7 +54,7 @@ body {
   box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
 }
 
-.search-form input {
+.search-for__input {
   box-sizing: border-box;
   border: 0;
   background: transparent;
@@ -68,16 +68,16 @@ body {
   color: #3d4e61;
 }
 
-.search-form--big input {
+.search-form--big .search-for__input {
   padding-left: 62px;
   font-size: 16px;
 }
 
-.search-form--small input {
+.search-form--small .search-for__input {
   padding-left: 33px;
   font-size: 14px;
 }
 
-.search-form input:focus {
+.search-form .search-for__input:focus {
   font-weight: 800;
 }
